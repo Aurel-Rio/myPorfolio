@@ -1,0 +1,73 @@
+
+/*--------------------------------------------------------------------------*/
+/*				                    Navbar              	   			    */
+/*--------------------------------------------------------------------------*/
+
+nav{
+    z-index: 1;
+    position: fixed;
+    height: 55px;
+    width:100%;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+    animation: fadeIn 1s 3s backwards;
+}
+
+nav>h3{
+    display: flex;
+    position: absolute;
+    left: 25px;
+    font-family: 'Poppins';
+    color: rgb(117, 117, 207);
+    text-shadow: 2px 2px white;
+}
+
+nav>h3:nth-child(0n+1){
+    margin: 25px 0px 0px 30px;
+}
+
+#button_display_connexion_element{
+    margin-top:-10px;
+    margin-right: 15px;
+    opacity: 0;
+}
+
+nav>ul{
+    margin: 15px 25px 0px 0px;
+    display: flex;
+    float: right;
+}
+nav>ul>li{
+    margin-right: 25px;
+    flex-direction: row-reverse;
+}
+
+nav>ul>li>a{
+    transition: .4s;
+    color: white;
+}
+
+/*--------------------------------------------------------------------------*/
+/*				             Effet de surlignement             			    */
+/*--------------------------------------------------------------------------*/
+
+nav>ul>li:after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+nav>ul>li:hover::after {
+    width: 100%;
+    background-color: rgb(0, 153, 0);
+}
+
+nav>ul>li>a:hover{
+    color: rgb(0, 153, 0);
+    padding: 0px 25px 0px 25px;
+    transition: .4s;
+}

@@ -1,0 +1,98 @@
+
+/*------------------ESPACES ADMIN----------------------------------*/
+
+body {
+    background-color: rgb(174, 165, 165);
+}
+
+#selectCrud {
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color:black;
+    padding: 20px 0px 20px 0px;
+    word-spacing: 25px;
+}
+
+button {
+    background: linear-gradient(217deg, rgba(117, 86, 0, 0.8), rgba(163, 163, 163, 0) 70.71%), linear-gradient(127deg, rgba(70, 70, 70, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(180, 180, 180, 0.8), rgba(131, 131, 131, 0) 70.71%);
+    color: white;
+    border-style: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgba(84, 84, 84, 0.8);
+    color: white;
+}
+
+#admin_form_add_product,
+#admin_form_delete_product,
+#admin_form_update_product {
+    position: relative;
+    top: 150px;
+    display: none;
+    width: 750px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+input,
+textarea {
+    width: 75%;
+}
+
+#display_data {
+    position: relative;
+    display: none;
+    margin: 10% 10% 10% 10%;
+    background: rgba(240, 240, 240, 0.2);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#display_data>img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#productQuery {
+    margin-bottom: 100px;
+}
+
+#btn_return_website {
+    background: linear-gradient(217deg, rgba(117, 86, 0, 0.8), rgba(163, 163, 163, 0) 70.71%), linear-gradient(127deg, rgba(70, 70, 70, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(180, 180, 180, 0.8), rgba(131, 131, 131, 0) 70.71%);
+    color: white;
+}
+
+#line_separator_products {
+    width: 65%;
+    height: 1px;
+    background-color: rgb(83, 83, 83);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 80px;
+    transition: 1s;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 1px;
+    position: fixed;
+    z-index: 1;
+}
+
+.ERR_PHP {
+    background-color: brown;
+}

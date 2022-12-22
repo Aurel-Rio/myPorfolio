@@ -1,0 +1,23 @@
+/*---------------------FOOTER UTILISATEURS CONNECTER----------------------------*/
+
+footer {
+    z-index: 1;
+    transition: 1s;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(217deg, rgba(117, 86, 0, 1), rgba(255, 0, 0, 0) 15.71%), linear-gradient(127deg, rgba(0, 0, 0, 1), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 70.71%);
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: rgb(116, 116, 0);
+    position: fixed;
+    text-shadow: 1px 1px white;
+    left:0;
+}
+
+footer>p {
+    margin-top: 15px;
+    color: rgb(116, 116, 0);
+    text-shadow: 1px 1px rgb(32, 0, 17);
+}

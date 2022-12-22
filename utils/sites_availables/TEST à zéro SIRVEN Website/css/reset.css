@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/*-----------------------RESET DU STYLE DE LA PAGE-----------------------------*/
+
+* {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    outline: none;
+}
+
+/*-----------------------TAILLE DU BODY ----------------------------------------*/
+
+body{
+    margin: 10% 0% 10% 0%;
+    padding:0% 10% 0% 10%;
+    background-image: url(../tools/imgCarroussel/test_background_body.jpg);
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+
+}

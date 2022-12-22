@@ -1,0 +1,27 @@
+
+
+#form_register, #my_porfolio_generator, #form_connexion{
+    display:none;
+    position: absolute;
+    margin-top: 40vh;    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin-left: 50vw;    /* poussé de la moitié de largeur de viewport */
+    transform: translateX(-50%); /* tiré de la moitié de sa propre largeur */
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+#my_porfolio_generator{
+    display:none;
+    margin-top: 20vh;    
+}
+
+#form_connexion{
+    margin-top: 140vh;  
+    margin-bottom: 500px;
+}

@@ -1,0 +1,111 @@
+/* ------------------ NAVBAR ----------------------*/
+
+header>nav {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color:  rgb(116, 116, 0);;
+    background: black;
+    text-shadow: 1px 1px rgb(32, 0, 17);
+    left: 0;
+}
+
+nav>ul>li {
+    padding-right: 20px;
+}
+
+.navbar__links {
+    margin-top: 20px;
+    float: right;
+    display: flex;
+    margin-right: 20px;
+    /*  opacity: 0;
+    animation: fadeIn 1.2s .3s forwards;
+    animation: zoomOut 1.2s .3s forwards; */
+    font-size: 1em;
+}
+
+.navbar__link>a {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(116, 116, 0);
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+nav>h1 {
+    transition: 2s;
+    position: absolute;
+    margin: 20px 0px 0px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(116, 116, 0);
+    text-shadow: 1px 1px 2px rgb(118, 118, 118);
+    font-size: 1.2em;
+    /*  opacity: 0;
+    animation: fadeIn 1.2s .3s forwards;
+    animation: zoomOut 1.2s .3s forwards;*/
+}
+
+/*------------------- EFFET --------------------------------------*/
+
+.navbar__link>a:after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: rgb(116, 116, 0);
+    transition: .4s;
+}
+
+.navbar__link>a:hover::after {
+    width: 100%;
+    background-color: rgb(116, 116, 0);
+}
+
+/* ------------------ANIMATION DE LA NAVBAR ----------------------*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
+
+@keyframes zoomOut {
+    from {
+        transform: scale(2);
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 2;
+    }
+}

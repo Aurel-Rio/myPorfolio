@@ -1,0 +1,16 @@
+#my_cv{  
+    display: none;
+    height: auto;
+    width: 100%;
+    position:absolute;
+    top: 100px;
+
+}
+#my_cv>img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 15px ;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}

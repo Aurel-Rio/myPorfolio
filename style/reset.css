@@ -1,0 +1,87 @@
+
+/*--------------------------------------------------------------------------*/
+/*				              Import des font locaux    		      		*/
+/*--------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RubikStorm';
+    src: url('font/RubikStorm-Regular.ttf') format('truetype');
+}
+
+
+/*--------------------------------------------------------------------------*/
+/*				                    Reset CSS 			     				*/
+/*--------------------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(125deg, rgba(2,0,36,1) 34.7%, rgba(255,255,255,1) 32%, rgba(2,0,36,1) 35%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) ;
+}
+
+/*--------------------------------------------------------------------------*/
+/*				                Introduction animée        	   			    */
+/*--------------------------------------------------------------------------*/
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
+
+@keyframes zoomOut {
+    from {
+        transform: scale(2);
+    }
+
+    to {
+        transform: scale(0.5);
+
+    }
+}

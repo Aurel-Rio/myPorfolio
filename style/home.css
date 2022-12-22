@@ -1,0 +1,50 @@
+/*Page Home*/
+
+#anim_start{
+    position: absolute;
+    animation: fadeIn 1s 1s backwards;
+    margin-top: 30vh;    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin-left: 40vw;    /* poussé de la moitié de largeur de viewport */
+    transform: translateX(-50%); /* tiré de la moitié de sa propre largeur */
+    transform: scale(1.5);
+}
+
+#anim_start>img{
+    animation: fadeIn 2s 2s backwards;
+    animation: fadeOut 2s 2s forwards;
+}
+
+#home{
+    display:block;
+    position: absolute;
+    margin-top: 40vh;    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin-left: 50vw;    /* poussé de la moitié de largeur de viewport */
+    transform: translateX(-50%); /* tiré de la moitié de sa propre largeur */
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-shadow: 1px 1px   rgb(0, 0, 0);
+    animation: fadeIn 1s 5s backwards;
+}
+
+.home{
+    display:block;
+    position: absolute;
+    margin-top: 40vh;    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin-left: 50vw;    /* poussé de la moitié de largeur de viewport */
+    transform: translateX(-50%); /* tiré de la moitié de sa propre largeur */
+    width: 75%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-shadow: 1px 1px   rgb(0, 0, 0);
+    animation: fadeIn 1s 1s backwards;
+}

@@ -1,0 +1,96 @@
+
+/*--------------------------------------------------------------------------*/
+/*				             Page Mes réalisations              	        */
+/*--------------------------------------------------------------------------*/
+
+#my_realisations{
+    display: none;
+}
+
+#button_arrow_down_change_data{
+    position: absolute;
+    top: 76vh;
+    transform: translate(-50%);
+    left: 10vw;
+    transform: scale(2);
+}
+
+#button_responcvive{
+    position: absolute;
+    top: 75vh;
+    transform: translate(-50%);
+    left: 22vw;
+    transform: scale(2);
+}
+
+#inject_text_realisations{
+    position: absolute;
+    top: 20vh;
+    left: 3.5%;
+    padding: 15px;
+    width: 30.5%;
+    height: 40%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+}
+
+.responciveMobileDisplay{
+    position: absolute;
+    top: 10vh;
+    right: 30vh;
+    width: 350px;
+    height: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*--------------------------------------------------------------------------*/
+/*			   Zone d'affichage - Injection des réalisations              	*/
+/*--------------------------------------------------------------------------*/
+
+.screen_data_display{ 
+    display: block;
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    background-color: blue;
+    top:50vh;
+    transform: translateY(-50%);
+    right: 55px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+object:hover{
+    cursor: pointer;
+}
+
+.img-clignote {
+    animation-duration: 1.5s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+/*--------------------------------------------------------------------------*/
+/*			                Effet de clignotement                         	*/
+/*--------------------------------------------------------------------------*/
+
+@keyframes clignoter {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+

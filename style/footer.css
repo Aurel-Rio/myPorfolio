@@ -1,0 +1,45 @@
+
+
+footer{
+    position: fixed;
+    bottom:0;
+    height: 55px;
+    width:100%;
+    background-color: black;
+    color: white;
+    border-top: 2px solid white;
+    animation: fadeIn 1s 3s backwards;
+}
+
+footer>h4{
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer>h4>strong{
+    font-family: 'RubikStorm';
+    color: grey;
+} 
+
+.img-clignote-green {
+    animation-duration: 8s;
+    animation-name: clignoter-green;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+@keyframes clignoter-green {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+        color: rgb(2, 73, 2);
+    }
+
+    100% {
+        opacity: 1;
+        color:white;
+    }
+}

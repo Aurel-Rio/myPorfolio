@@ -1,0 +1,7 @@
+.animated_text span:not(.fade) {
+    opacity: 0;
+}
+
+.animated_text span {
+    transition: all .4s;
+}

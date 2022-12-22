@@ -1,0 +1,40 @@
+
+/*--------------------CATALOGUE DE PRODUITS---------------------------------------------*/
+
+#appBook {
+    margin: auto;
+    width: 75%;
+    margin-top: 125px;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 75px;
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#appBook>h2 {
+    margin-bottom: 25px;
+}
+
+#display_data_book>img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#display_data_book {
+    margin-top: 25px;
+}
+
+#search_book {
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#flexBook{
+    display: inline;
+}
